@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin:0;
+}
+.wrapper {
+     padding-top: 60px;
+     display:flex;
+     flex-direction: column;
+     justify-content:center;
+    
+}
+.form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ background-color: grey;
+    text-align: center;
+ font-weight: bold;
+ font-size: 36px;
+ margin: 0 auto;
+ padding: 30px;
+ width: 280px;
+ height: 300px;
+}
+#input-todo {
+    height: 50px;
+}
+button {
+    height: 50px;
+    width: 250px;
+}
+
+.todo-text {
+    margin-top: 50px;
+    text-align: center;
+}
+   .todo-list{
+      margin: 0 auto;
+      padding: 20px;
+      width: 280px;
+   } 
+  
